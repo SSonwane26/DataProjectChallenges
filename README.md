@@ -7,5 +7,5 @@ I'm taking on this data challenge to push my data literacy and explore new techn
 
 ### DataDNA-DatasetChallenge
 
-- [May2024](): Challenge given by [OnyxData](https://onyxdata.co.uk/data-dna-dataset-challenge/) in IT Help Desk Domain.
-- [June2024](): Challenge given by [OnyxData](https://onyxdata.co.uk/data-dna-dataset-challenge/) in Digital Marketing Domain.
+- [May2024](https://github.com/SSonwane26/DataProjectChallenges/blob/main/May%202024%20-%20Technical%20Support/README.md#onxy-data-project-challenge-may2024): Challenge given by [OnyxData](https://onyxdata.co.uk/data-dna-dataset-challenge/) in IT Help Desk Domain.
+- [June2024](https://github.com/SSonwane26/DataProjectChallenges/blob/main/June%202024%20-%20Marketing%20Campaign/README.md#onxy-data-project-challenge-june2024): Challenge given by [OnyxData](https://onyxdata.co.uk/data-dna-dataset-challenge/) in Digital Marketing Domain.
