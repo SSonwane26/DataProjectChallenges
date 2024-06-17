@@ -14,7 +14,27 @@ Video [Presentation]()
 
 **About Dataset:**
 
-For More Detail [zipfile]()
+Column Description,
+- Campaign:	Marketing campaign 
+- Date:	Date for daily ad performance metrics
+- City/Location:	Cities that were targeted by campaign
+- Latitude:	Latitude for the cities
+- Longitude:	Longitude for the cities
+- Channel:	Channel where ads where displayed (Facebook, Instagram, Pinterest)
+- Device:	Device from ads where viewed
+- Ad:	Ads that where used within a campaign
+- Impressions:	Daily impressions (times ad was shown to a viewer) for each ad
+- CTR, %:	Daily average click-through rate for each ad
+- Clicks:	Daily clicks for each ad
+- Daily Average CPC:	Daily average cost-per-click for each ad
+- Spend, GBP:	Total daily amount of advertising spending for each ad, in GBP
+- Conversions:	Total daily purchases attributed to a specific ad
+- Total conversion value, GBP:	Total amount in GBP received from purchases attributed to a specific ad
+- Likes:	Total daily likes (or other reactions) per ad 
+- Shares:	Total daily shares per ad. For the simplicities sake, each Pin on Pinterest is counted as a share
+- Comments:	Total daily comments per ad 
+
+For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/blob/main/June%202024%20-%20Marketing%20Campaign/Onyx_Data_DataDNA_Challenge_June_2024.zip)
 
 **Data Analysis and Exploration:**
 
