@@ -9,9 +9,6 @@ First, let me introduce myself. My name is Saurabh Sonwane, having one years' ex
 
 Power BI [Report](https://app.powerbi.com/view?r=eyJrIjoiNjU4MjcxMmMtZGYyMi00OTU0LTkwZGYtMjU4MGRlMWNhNTI3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=3627ac70ced5430791dc)
 
-PowerPoint [Presentation]()
-
-Video [Presentation]()
 
 The Marketing Ad Campaign Performance Analysis project aims to comprehensively evaluate the effectiveness of various digital marketing campaigns across multiple channels and devices. By leveraging detailed performance metrics, the project will provide actionable insights to optimize advertising strategies, improve ROI, and drive business growth.
 
@@ -47,7 +44,18 @@ For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/bl
 
 **Data Analysis and Exploration:**
 
--
+1. Check for any missing or null values in the dataset and decide on appropriate handling methods.
+2. Calculate summary statistics (mean, median, standard deviation) for key metrics like impressions, clicks, conversions, and spend.
+3. Create a correlation matrix to identify relationships between different metrics (e.g., clicks and conversions, spend and ROAS).
+4. Plot time series graphs for daily impressions, clicks, conversions, and spend to identify trends, seasonality, and patterns over time.
+5. Compare key metrics (impressions, clicks, conversions, spend) across different channels (Facebook, Instagram, Pinterest) to identify the best-performing channels.
+6. Use maps to visually represent the geographical distribution of key metrics like conversions and spend.
+7. Compare key metrics (CTR, conversion rate, CPC) across different devices (mobile, desktop, tablet) to identify which devices perform best.
+8. Identify the ads with the highest impressions, clicks, and conversions.
+9. Evaluate cost metrics like average CPC and CPA across different campaigns and ads to assess cost efficiency.
+10. Calculate ROAS for each campaign and ad to measure the return on ad spend and identify the most profitable investments.
+11. If demographic data is available, segment the audience by demographics (age, gender, etc.) and analyze performance metrics for each segment.
+12. Compare your campaign performance metrics against industry benchmarks to gauge relative performance.
 
 **Report Creation:**
 
