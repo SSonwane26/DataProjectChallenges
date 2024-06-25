@@ -7,8 +7,9 @@ First, let me introduce myself. My name is Saurabh Sonwane, having one years' ex
 
 ## About Project
 
-Power BI [Report](https://app.powerbi.com/view?r=eyJrIjoiNjU4MjcxMmMtZGYyMi00OTU0LTkwZGYtMjU4MGRlMWNhNTI3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=3627ac70ced5430791dc)
+Live [Report](https://app.powerbi.com/view?r=eyJrIjoiNjU4MjcxMmMtZGYyMi00OTU0LTkwZGYtMjU4MGRlMWNhNTI3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=3627ac70ced5430791dc)
 
+Power BI Report [Glimpse](https://github.com/SSonwane26/DataProjectChallenges/blob/main/June%202024%20-%20Marketing%20Campaign/Marketing_Campaign_June2024.pdf)
 
 The Marketing Ad Campaign Performance Analysis project aims to comprehensively evaluate the effectiveness of various digital marketing campaigns across multiple channels and devices. By leveraging detailed performance metrics, the project will provide actionable insights to optimize advertising strategies, improve ROI, and drive business growth.
 
