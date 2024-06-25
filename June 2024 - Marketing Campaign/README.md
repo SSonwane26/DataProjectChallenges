@@ -59,7 +59,104 @@ For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/bl
 
 **Report Creation:**
 
--
+ 1. Data Loading and Preparation:
+-  Load Data: Data is loaded into Power Query in Power BI.
+-  Clean Data: Since the data is already clean with no missing values or outliers, we close and save the data transformation tab.
+
+2. Creating Calculated Columns:
+- Conversion Rate: `Conversion Rate = Conversions / Clicks`
+- Engagement Rate: `Engagement Rate = (Reaction + Comments + Shares) / Impressions`
+- Return on Ad Spend: `Return on Ad Spend = Total Conversion Value GBP / Spend GBP`
+
+3. Creating Calculated Measures:
+- Total Cost: `Total Cost = SUM(Spend GBP)`
+- Total Clicks: `Total Clicks = SUM(Clicks)`
+- Total Conversions: `Total Conversions = SUM(Conversions)`
+- Revenue: `Revenue = SUM(Total Conversion Value GBP)`
+- Cost per Acquisition: `Cost per Acquisition = Total Cost / Total Conversions`
+- Cost per Mille: `Cost per Mille = (Total Cost / Total Impressions) * 1000`
+- Avg. Engagement Rate: `Avg. Engagement Rate = AVERAGE(Engagement Rate)`
+- Return on Ad Spend per Ad: `Return on Ad Spend per Ad = Revenue / Total Cost`
+
+4. Creating Field Parameters:
+- Parameter1: Includes Total Clicks, Total Impressions, Total Conversions, Engagement Rate, Total Cost.
+- Parameter2: Includes Campaign, Channel, City, Ad Type, Device.
+
+5. Report View Visualizations:
+
+a. Overview Page:
+- Cards: Display Total Clicks, Total Impressions, Daily Avg. Cost per Click, Return on Ad Spend per Ad, Cost per Acquisition per Ad, Total Cost.
+- Pie Charts:
+  - Channel vs Total Cost
+  - Channel vs Total Clicks
+  - Channel vs Total Conversions
+- Stacked Column Chart:
+  - X-axis: Campaign
+  - Y-axis: Parameter1
+- Line and Stacked Column Chart:
+  - X-axis: Month
+  - Y-axis: Parameter1
+  - Line Y-axis: Click Through Rate
+
+b. Campaign and Ad Performance Page:
+- Cards: Show Engagement Rate, Total Impressions, Total Clicks.
+- Gauges:
+  - Gauge 1: Click Through Rate
+  - Gauge 2: Conversion Rate
+- Table: Displays Campaign with Total Clicks, Total Impressions, Total Conversions, Total Cost, Click Through Rate, Revenue.
+- Area Chart:
+  - X-axis: Month
+  - Y-axis: Return on Ad Spend
+  - Legend: Ad Type
+- Slicer: City
+- Cluster Column Chart:
+  - X-axis: Channel
+  - Y-axis: Parameter1
+  - Legend: Ad Type
+- Line and Stacked Column Chart:
+  - X-axis: Parameter2
+  - Column Y-axis: Conversion Rate
+  - Line Y-axis: Return on Ad Spend
+
+c. Geographical and Device Performance Page:
+- Cards: Show Total Clicks, Total Impressions, Total Cost.
+- Table:
+  - Rowsv Device, City
+  - Values: Cost per Click, Click Through Rate, Conversion Rate, Cost per Mille, Cost per Acquisition
+- Stacked Column Chart:
+  - X-axis: Month
+  - Y-axis: Parameter1
+  - Legend: Device
+- Line and Clustered Column Chart:
+  - X-axis: Campaign
+  - Y-axis: Engagement Rate
+  - Line Y-axis: Cost per Mille
+  - Column Legend: Device
+- Map:
+  - Location: City
+  - Bubble Size: Revenue
+  - Tooltip: Pie Chart for Revenue by Device
+
+d. Engagement and Cost Efficiency Page:
+- Gauges:
+  - Gauge 1: Cost per Acquisition
+  - Gauge 2: Return on Ad Spend
+- Card: Total Cost
+- Table: Campaign with Total Cost, Cost per Click, Cost per Acquisition, Return on Ad Spend.
+- Pie Chart:
+  - Legend: Parameter2
+  - Value: Total Cost
+- Slicer: City
+- Line and Stacked Column Charts:
+  - X-axis: Month
+  - Column Y-axis: Total Cost
+  - Line Y-axis: Click Through Rate
+  - Column Y-axis: Cost per Acquisition
+  - Line Y-axis: Cost per Click
+
+6. Final Touches:
+- Added different colors to charts.
+- Implemented navigation buttons for easy page transitions.
 
 **Insights:**
 
