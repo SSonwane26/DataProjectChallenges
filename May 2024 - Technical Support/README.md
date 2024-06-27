@@ -40,6 +40,22 @@ For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/bl
 
 **Data Analysis and Exploration:**
 
+1. Analyze the distribution of tickets across different statuses (Open, In Progress, Resolved, Closed) to understand the overall workflow and identify any bottlenecks.
+2. Investigate which source channels (chat, phone, email) generate the most tickets, helping to optimize support resources and communication strategies.
+3. Examine the distribution of ticket priorities (low, medium, high) to identify the urgency levels most frequently encountered and plan resource allocation accordingly.
+4. Analyze the performance and workload of different support levels (Tier 1, Tier 2) to ensure that tickets are appropriately escalated and managed.
+5. Evaluate the volume and types of tickets associated with different product groups to identify potential issues with specific products and guide product improvements.
+6. Identify the most common topics of customer inquiries to understand recurring issues and areas where additional support resources or documentation may be needed.
+7. Assess the performance of different agent groups (1st level support, 2nd level support) by measuring ticket resolution times and customer satisfaction ratings.
+8. Analyze individual agent performance in terms of the number of tickets handled, average resolution time, and customer satisfaction scores to identify top performers and areas for improvement.
+9. Investigate the average first response time and its compliance with the expected SLA to identify areas where the initial response can be improved.
+10. Examine the average resolution time and its compliance with the expected SLA to ensure tickets are resolved efficiently and within expected timeframes.
+11. Analyze customer satisfaction ratings to gauge the overall effectiveness of the support provided and identify areas where service quality can be enhanced.
+12. Map the geographical distribution of tickets to understand where most customer inquiries originate and tailor support services to those regions.
+13. Assess the total count of agent interactions per ticket to understand the complexity and effort required to resolve different types of tickets.
+14. Examine trends in ticket creation, resolution, and closure over time to identify seasonal patterns or shifts in customer support demand.
+15. Track SLA compliance trends for both first response and resolution over time to monitor improvements or declines in meeting service level agreements.
+
 **Report Creation:**
 
 **Insights:**
