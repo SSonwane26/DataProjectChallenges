@@ -58,6 +58,107 @@ For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/bl
 
 **Report Creation:**
 
+1. Data Preparation
+- Import your dataset into Power Query in Power BI.
+- Change necessary column data types.
+- Replace row values for consistency (e.g., AbCDe to Abcde).
+- Extract 'day name', 'week of the year', and 'hour' from ‘Created time’ and ‘Closed time’ columns.
+- Ensure the data is clean with no missing values or outliers, then save and close the data transformation tab.
+
+2. Creating Calculated Columns
+- `ResolutionSLAAdherence` = IF(`ResolutionTime_min` <= `SLA_ResolutionTime_min`, 1, 0)
+- `ResolutionTime_min` = DATEDIFF(`Created time`, `Resolution time`, MINUTE)
+- `ResponseSLAAdherence` = IF(`ResponseTime_min` <= `SLA_ResponseTime_min`, 1, 0)
+- `ResponseTime_min` = DATEDIFF(`Created time`, `First response time`, MINUTE)
+- `SLA_ResolutionTime_min` = DATEDIFF(`Created time`, `Expected SLA to resolve`, MINUTE)
+- `SLA_ResponseTime_min` = DATEDIFF(`Created time`, `Expected SLA to first response`, MINUTE)
+- `TimeFromFirstResponseToResolutionMinutes` = DATEDIFF(`First response time`, `Resolution time`, MINUTE)
+- `Workday` = IF(WEEKDAY(`Created time`, 2) < 6, "Weekday", "Weekend")
+- `Workhour` = IF(`Created Hour` >= 9 && `Created Hour` < 18, "Work Hours", "After Hours")
+
+3. Creating Calculated Measures
+- `AgentResolutionSLAAdherence%` = DIVIDE(SUM(`ResolutionSLAAdherence`), COUNT(`Ticket ID`)) * 100
+- `AgentResponseSLAAdherence%` = DIVIDE(SUM(`ResponseSLAAdherence`), COUNT(`Ticket ID`)) * 100
+- `AverageResolutionTime(Hrs)` = AVERAGE(`ResolutionTime_min`) / 60
+- `AverageResponseTime(Min)` = AVERAGE(`ResponseTime_min`)
+- `AverageTimeFromFirstResponseToResolutionHours` = AVERAGE(`TimeFromFirstResponseToResolutionMinutes`) / 60
+- `Daily` = DIVIDE(COUNTROWS(`Data`), DISTINCTCOUNT(`Created time`.[Day]))
+- `Monthly` = DIVIDE(COUNTROWS(`Data`), DISTINCTCOUNT(`Created time`.[Month]))
+- `ticketperagentperhour` = DISTINCTCOUNT(`Ticket ID`) / DISTINCTCOUNT(`Agent Name`) / DISTINCTCOUNT(`Created Hour`)
+- `TicketResolutionRate%` = DIVIDE(COUNTROWS(FILTER(`Data`, NOT(ISBLANK(`Resolution time`)))), COUNTROWS(`Data`), 0) * 100
+- `Weekly` = DIVIDE(COUNTROWS(`Data`), DISTINCTCOUNT(`Week of Year`))
+
+4. Create Field Parameters
+- Parameter1: For monthly, weekly, daily, hourly from ‘Created time’ column.
+- Parameter2: For monthly, daily, hourly from ‘Closed time’ column.
+
+5. Report View
+
+a. Overview Page
+- Cards:
+   - Total Tickets
+   - Average Response Time (min)
+   - Average Tickets per Agent per Hour
+   - Average Resolution Time (hrs)
+- Pie Charts:
+   - By Priority
+   - By Status
+   - By Source
+- Stacked Bar Charts:
+   - By Topic (y axis) and Priority (legend)
+   - By Agent Name (y axis) and Priority (legend)
+   - By Product Group (y axis) and Priority (legend)
+
+b. Ticket Volume Trends Page
+- Cards:
+   - Daily Average Tickets Created
+   - Weekly Average Tickets Created
+   - Monthly Average Tickets Created
+- Donut Charts:
+   - By Workday
+   - By Workhour
+- Area Charts:
+   - Total Tickets by Parameter1 (Created time)
+   - Total Tickets by Parameter2 (Closed time)
+
+c. Ticket Content and Resolution Page
+- Cards:
+   - Average Response Time (min)
+   - Average Resolution Time (hr)
+   - Resolution Rate (%)
+- Gauge: Average Time from First Response to Resolution (Hours)
+- Line and Stacked Column Chart:
+   - X axis: Day Name
+   - Column Y axis: Average Resolution Time (hr)
+   - Line Y axis: Resolution Rate (%)
+- Table:
+   - Columns: Topic, Resolution Rate (%), Response Time (min), Resolution Time (hr)
+- Scatter Chart:
+   - X axis: Topic
+   - Y axis: Resolution Time (hr)
+   - Legend: Source
+   - Size: Total Tickets
+
+d. Agent Performance Page
+- Gauges:
+   - Cost per Acquisition
+   - Return on Ad Spend
+- Cards:
+   - Average Tickets Created
+   - Response SLA Adherence (%)
+   - Resolution SLA Adherence (%)
+   - Average Rating
+- Pie Charts:
+   - By SLA for First Response
+   - By SLA for First Resolution
+- Table:
+   - Rows: Agent Group, Agent Name
+   - Columns: Tickets Distribution, Response SLA Adherence (%), Resolution SLA Adherence (%), Average Rating
+
+6. Final Touches
+- Apply consistent colors to charts.
+- Add buttons for easy page navigation. 
+
 **Insights:**
 
 **Suggestions and Recommendations:**
