@@ -4,7 +4,7 @@ Story of my journey as Data Analyst, complete information of my Project and my F
 Good Morning, I am Saurabh. Today, I'm here to provide detailed information about my journey, for this project, as a data analyst at Onxy Data Services.
 ### About Me
 First, let me introduce myself. My name is Saurabh Sonwane, one years' experience with analytical tools. I hold a degree in mechanical engineering and have been working as a Graduate Engineer Trainee (GET) in a multinational corporation. During my tenure there, my curiosity was piqued by the world of data sciences and analytics. I embarked on a journey to learn various analysis techniques, specializing in data transformation and visualization, utilizing tools such as MS Excel and PowerBI. Additionally, I honed my programming skills in SQL and Python.
-### About Company
+
 ## About Project
 Live [Report](https://app.powerbi.com/view?r=eyJrIjoiNGViZTg1NjgtZTVkZi00NTQ3LWI0YTgtZmU2M2Y4MzAxOTk1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
@@ -161,7 +161,53 @@ d. Agent Performance Page
 
 **Insights:**
 
+Overview: 
+- The dataset shows a total of 2330 tickets, with an average response time of 26 minutes, an average resolution time of 33 hours, and an average of 12 tickets per agent per hour.
+- Low priority tickets make up 51% of the total, followed by medium priority at 31% and high priority at 18%.
+- Closed status accounts for 50% of tickets, resolved status for 32%, and in-progress status for 17%.
+- Email is the most common source with 53% of tickets, followed by chat at 37% and phone at 11%.
+- The most frequent topic is product setup, and the agent with the highest number of tickets is Nicola Wame.
+- The product group with the most tickets is ready-to-use software.
+
+Ticket Volume Trends: 
+- The dataset shows a daily average of 75 tickets, a weekly average of 45 tickets, and a monthly average of 194 tickets.
+- Weekdays account for 85% (1979) of tickets, while weekends account for 15%.
+- After-hours tickets make up 63% (1468) of the total, while work hours account for 37%.
+- January has the highest number of tickets created, and December has the highest number of tickets closed.
+
+Ticket Content and Resolution: 
+- The average resolution rate is 82%, and the average time from first response to resolution is 33 hours, with a target of 30 hours.
+- Saturday has the longest resolution time, followed by Friday and Tuesday, but Tuesday has the highest resolution rate, followed by Saturday and Friday.
+- Bug report topics have the highest resolution rate at 85%, while training request topics have the lowest at 76%.
+- Feature request topics have the shortest response time at 21 minutes, and purchasing and invoicing have the longest at 34 minutes.
+- Training request topics have the longest resolution time at 39 hours, and bug reports have the shortest at 30 hours.
+- Chat and email sources have a high number of tickets for pricing and licensing topics, while phone sources have the longest resolution time at 57 hours for training request topics and Chat sources have the shortest resolution time at 21 hours for other topics.
+
+Agent Performance: 
+- The agent response SLA adherence is 89%, and the resolution SLA adherence is 84%.
+- Germany has the highest number of tickets, followed by Italy and Poland.
+- For the first response SLA, 87% of tickets are within SLA (2019 tickets), and 13% are violated.
+- For the first resolution SLA, 66% of tickets are within SLA (1547 tickets), and 34% are violated.
+- In the 1st line support agent group, Nicola Wane has the most tickets at 16%, Bernard Beckley has the highest response SLA adherence at 90%, Sheela Cutten has the highest resolution SLA adherence at 87%, and Connor Danielouitch has the highest average customer rating at 4.07.
+- In the 2nd line support agent group, Adolpho Messingham has the most tickets at 9%, Michele Whyatt has the highest response SLA adherence at 93%, Heather Urry has the highest resolution SLA adherence at 89%, and Adolpho Messingham has the highest average customer rating at 3.46.
+
 **Suggestions and Recommendations:**
+
+1. Since low priority tickets form the largest group (51%), optimize processes to handle these efficiently without compromising on high and medium priority tickets.
+2. Despite a good average response time, identify and address specific areas or times (e.g., after-hours) where response times are lagging to further enhance customer satisfaction.
+3. With email accounting for 53% of tickets, consider investing in automated email response systems and training for agents to handle emails more effectively.
+4.  Since resolution times are longer on weekends, consider increasing weekend staffing or providing additional resources and training to weekend support agents.
+5.  Given that training request topics have the longest resolution times (39 hours), review and streamline the processes involved in handling these requests.
+6. With 34% of tickets missing the first resolution SLA, analyze the causes and implement measures to ensure more tickets are resolved within the SLA timeframe.
+7. Utilize the expertise of top-performing agents like Nicola Wane and Bernard Beckley to mentor other agents and share best practices for improving ticket resolution and customer satisfaction.
+8. Since phone support has the longest resolution time for training requests, invest in training and tools specifically for phone support agents to enhance their efficiency.
+9. With 63% of tickets being created after hours, consider expanding after-hours support staff and resources to better manage this workload and improve response times.
+10. Given the high volume of tickets for product setup, develop comprehensive self-service resources (e.g., FAQs, video tutorials) to empower customers to resolve common issues independently.
+11. Regularly review ticket volume trends to ensure staffing levels are aligned with peak times and ensure adequate coverage during high volume periods, such as January and December.
+12. With 2nd line support showing varied performance, provide targeted training to ensure consistent high performance across all agents in this group.
+13. Investigate specific cases with unusually high resolution times to identify root causes and implement corrective actions to prevent recurrence.
+14. Implement regular training sessions focused on SLA adherence and best practices to ensure all agents understand the importance of meeting SLA targets.
+15. Regularly gather and analyze customer feedback to identify areas for improvement and implement changes based on customer suggestions to enhance overall service quality.
 
 ## Acknowlegement
 We've successfully concluded our project. I want to extend my gratitude to OnxyData and Team for providing me with valuable experiences and knowledge through the project. Remember, we can always learn from learning, and I'm open to receiving feedback. Let's keep growing and improving together!
