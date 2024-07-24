@@ -4,7 +4,7 @@ I'm taking on this data challenge to push my data literacy and explore new techn
 ### CodebasicsResumeProjectChallenge
 
 - [CodeBasicsRPC#8](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%238/README.md#code-resume-project-challenge-8): Challenge given by [CodeBasics](https://codebasics.io/challenge/codebasics-resume-project-challenge) in Banking Domain.
-- [CodeBasicsRPC#12](): Challenge given by [CodeBasics](https://codebasics.io/challenge/codebasics-resume-project-challenge) in Automotive Domain. 
+- [CodeBasicsRPC#12](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2312/README.md#codebasics-resume-project-challenge-12): Challenge given by [CodeBasics](https://codebasics.io/challenge/codebasics-resume-project-challenge) in Automotive Domain. 
 
 ### DataDNA-DatasetChallenge
 
