@@ -22,7 +22,7 @@ Column Description for dim_customers:
 Column Description for fact_spends:
 
 
-For More Detail [zipfile]()
+For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2312/Dataset%2312.zip)
 
 **Data Analysis and Exploration:**
 
