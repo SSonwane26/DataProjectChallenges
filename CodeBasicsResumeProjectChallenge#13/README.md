@@ -79,7 +79,7 @@ Column Description for monthly_target_trips:
 - city_id: Unique identifier for each city.
 - total_target_trips: The target number of total trips Goodcabs aims to achieve for each city and month, enabling assessment of trip volume performance.
 
-For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2312/C13_Input_Files.zip)
+For More Detail [zipfile](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2313/C13_input_files.zip)
 
 **Data Analysis and Exploration:**
 
