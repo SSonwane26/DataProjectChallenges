@@ -21,7 +21,6 @@ Video [Presentation]()
 
 We have provided the tables in the `LioCinema_db` and `Jotstar_db` databases. 
 
-----
 LioCinema Database:
 
 This database contains detailed data on content, subscribers, and content consumption for the LioCinema platform, enabling insights into content, user behavior, and platform performance trends.
@@ -47,7 +46,7 @@ Column Description for content_consumption:
 - user_id: Unique identifier for each subscriber (e.g., UIDLC1d62ccb715a).
 - device_type: Type of device used to consume content (e.g., Mobile, TV, Tablet).
 - total_watch_time (mins): Total time spent watching content in minutes (e.g., 2721, 3286).
-----
+
 Jotstar Database:
 
 This database contains detailed data on content, subscribers, and content consumption for the Jotstar platform, enabling insights into content, user behavior, and platform performance trends.
