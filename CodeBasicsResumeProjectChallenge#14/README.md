@@ -2,12 +2,13 @@
 
 Story of my journey as Data Analyst, complete information of my Project and my Final Presentations.
 
-Good Morning, I am Saurabh. Today, I'm here to provide detailed information about my journey, for this project, as a data analyst at Atliq Motors.
+Good Morning, I am Saurabh. Today, I'm here to provide detailed information about my journey, for this project, as a data analyst at Lio.
 
 ### About Me
 First, let me introduce myself. My name is Saurabh Sonwane, one years' experience with analytical tools. I hold a degree in mechanical engineering and have been working as a Graduate Engineer Trainee (GET) in a multinational corporation. During my tenure there, my curiosity was piqued by the world of data sciences and analytics. I embarked on a journey to learn various analysis techniques, specializing in data transformation and visualization, utilizing tools such as MS Excel and PowerBI. Additionally, I honed my programming skills in SQL and Python.
 
 ### About Company
+Lio, a leading telecommunication provider in India, is planning a strategic merger with Jotstar, a prominent streaming platform. The goal is to combine Liocinema larger subscriber base with JOtstar's diverse content library to create a  dominant OTT(over the top) platform in India. To prepare for the merger, the management team want to analyze the performance and user behaviour of both plarforms (Liocinema and Jotstar) over the past year (Jan 2024 to Nov 2024). The analysis willl focus on subscriber growth, content consumption pattern, inactivity behaviour and upgrade/downgrade trends to optimize post-merger strategies.
 
 ## About Project
 MYSQL [Script]()
@@ -77,9 +78,54 @@ For More Detail [zipfile]()
 
 **Data Analysis and Exploration:**
 
+1. Data Collection:
+  - Gathered datasets from LioCinema and Jotstar, including user demographics, subscription details, content consumption, and platform performance metrics.
+2. Data Cleaning:
+  - Handled missing values, duplicates, and inconsistencies in the datasets.
+  - Standardized formats for dates, categorical variables, and numerical data.
+3. Exploratory Data Analysis (EDA):
+  - Analyzed user growth trends, churn rates, and retention rates for both platforms.
+  - Explored content consumption patterns by genre, language, and device type.
+  - Identified key trends in subscription upgrades, downgrades, and inactivity.
+4. User Segmentation:
+  - Segmented users by age group, city tier, and subscription plan to understand engagement and churn patterns.
+  - Analyzed watch time and device preferences across different user segments.
+5. Comparative Analysis:
+  - Compared performance metrics (e.g., revenue, watch time, churn rate) between LioCinema and Jotstar.
+  - Benchmarked both platforms against competitors in the Indian OTT market.
+6. Advanced Analytics:
+  - Used SQL for querying and manipulating large datasets.
+  - Applied statistical techniques to identify correlations (e.g., between churn rate and watch time).
+  - Created visualizations to uncover hidden patterns and trends.
 
 **Report Creation:**
 
+1 Insight Generation:
+  - Translated data findings into actionable insights for optimizing post-merger strategies.
+  - Highlighted key challenges (e.g., high churn rates, limited regional content) and opportunities (e.g., Tier 2 and Tier 3 markets, bundled plans).
+
+2 Visualization:
+  - Designed interactive dashboards and charts using Power BI to present insights clearly.
+  - Included visualizations such as:
+    - Line charts for user growth trends.
+    - Clustered bar charts for retention and churn rates.
+    - Heatmaps for content popularity by genre and language.
+    - Combo charts for revenue and watch time comparisons.
+
+3 Storytelling:
+  - Structured the report as a narrative, starting with the problem statement and ending with actionable recommendations.
+  - Used visuals and annotations to guide stakeholders through the analysis.
+
+- Tools Used:
+  - MySQL: For data querying and manipulation.
+  - Excel: For creating interactive dashboards and visualizations.
+  - PowerPoint: For presenting data analysis, recommodations, post merger steps, etc.
+  - Canva: For creating company logos.
+  - SlidesGo: Website for design presentions slides.
+
+- Documentation:
+  - Documented the entire process, including data cleaning steps, analysis methods, and visualization techniques.
+  - Included explanations for key metrics, assumptions, and limitations.
 
 **Insights:**
 
@@ -90,7 +136,7 @@ User Growth and Engagement
 - Jotstar:
   - Showed steady but slower growth in active users, with the highest growth in October (2.2%).
   - Inactive user growth was negative for most months, indicating better retention compared to LioCinema.
-  - 
+   
 LioCinema’s rapid growth comes with retention challenges, while Jotstar’s slower growth is more sustainable with better retention.
 
 Retention and Churn Rates
