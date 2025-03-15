@@ -13,7 +13,7 @@ Lio, a leading telecommunication provider in India, is planning a strategic merg
 ## About Project
 MYSQL [Script]()
 
-PowerPoint [Presentation]()
+Presentation [Document]()
 
 Video [Presentation]()
 
