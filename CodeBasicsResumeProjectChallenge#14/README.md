@@ -17,7 +17,7 @@ Presentation [Document]()
 
 Video [Presentation]()
 
-**About Dataset:**
+### About Dataset:
 
 We have provided the tables in the `LioCinema_db` and `Jotstar_db` databases. 
 
@@ -75,35 +75,40 @@ Column Description for content_consumption:
 
 For More Detail [zipfile]()
 
-**Data Analysis and Exploration:**
+### Data Analysis and Exploration:
 
-1. Data Collection:
+Data Collection:
   - Gathered datasets from LioCinema and Jotstar, including user demographics, subscription details, content consumption, and platform performance metrics.
-2. Data Cleaning:
+    
+Data Cleaning:
   - Handled missing values, duplicates, and inconsistencies in the datasets.
   - Standardized formats for dates, categorical variables, and numerical data.
-3. Exploratory Data Analysis (EDA):
+    
+Exploratory Data Analysis (EDA):
   - Analyzed user growth trends, churn rates, and retention rates for both platforms.
   - Explored content consumption patterns by genre, language, and device type.
   - Identified key trends in subscription upgrades, downgrades, and inactivity.
-4. User Segmentation:
+    
+User Segmentation:
   - Segmented users by age group, city tier, and subscription plan to understand engagement and churn patterns.
   - Analyzed watch time and device preferences across different user segments.
-5. Comparative Analysis:
+    
+Comparative Analysis:
   - Compared performance metrics (e.g., revenue, watch time, churn rate) between LioCinema and Jotstar.
   - Benchmarked both platforms against competitors in the Indian OTT market.
-6. Advanced Analytics:
+    
+Advanced Analytics:
   - Used SQL for querying and manipulating large datasets.
   - Applied statistical techniques to identify correlations (e.g., between churn rate and watch time).
   - Created visualizations to uncover hidden patterns and trends.
 
-**Report Creation:**
+### Report Creation:
 
-1 Insight Generation:
+Insight Generation:
   - Translated data findings into actionable insights for optimizing post-merger strategies.
   - Highlighted key challenges (e.g., high churn rates, limited regional content) and opportunities (e.g., Tier 2 and Tier 3 markets, bundled plans).
 
-2 Visualization:
+Visualization:
   - Designed interactive dashboards and charts using Power BI to present insights clearly.
   - Included visualizations such as:
     - Line charts for user growth trends.
@@ -111,22 +116,22 @@ For More Detail [zipfile]()
     - Heatmaps for content popularity by genre and language.
     - Combo charts for revenue and watch time comparisons.
 
-3 Storytelling:
+Storytelling:
   - Structured the report as a narrative, starting with the problem statement and ending with actionable recommendations.
   - Used visuals and annotations to guide stakeholders through the analysis.
 
-- Tools Used:
+Tools Used:
   - MySQL: For data querying and manipulation.
   - Excel: For creating interactive dashboards and visualizations.
   - PowerPoint: For presenting data analysis, recommodations, post merger steps, etc.
   - Canva: For creating company logos.
   - SlidesGo: Website for design presentions slides.
 
-- Documentation:
+Documentation:
   - Documented the entire process, including data cleaning steps, analysis methods, and visualization techniques.
   - Included explanations for key metrics, assumptions, and limitations.
 
-**Insights:**
+### Insights:
 
 User Growth and Engagement
 - LioCinema:
@@ -214,7 +219,7 @@ Inactive Users
 
 Both platforms face significant inactivity challenges, with LioCinema slightly worse. Retention strategies are critical for both.
 
-**Suggestions and Recommendations:**
+### Suggestions and Recommendations:
 
 1. Retention Strategies:
    - Target Free plan users** in Tier 3 cities and younger age groups with personalized offers.
