@@ -15,7 +15,7 @@ MYSQL [Script]()
 
 Presentation [Document]()
 
-Video [Presentation]()
+Video [Presentation](https://www.youtube.com/watch?v=dWZDka9dpyE)
 
 ### About Dataset:
 
