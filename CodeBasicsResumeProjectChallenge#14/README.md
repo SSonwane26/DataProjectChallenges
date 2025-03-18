@@ -11,9 +11,13 @@ First, let me introduce myself. My name is Saurabh Sonwane, one years' experienc
 Lio, a leading telecommunication provider in India, is planning a strategic merger with Jotstar, a prominent streaming platform. The goal is to combine Liocinema larger subscriber base with JOtstar's diverse content library to create a  dominant OTT(over the top) platform in India. To prepare for the merger, the management team want to analyze the performance and user behaviour of both plarforms (Liocinema and Jotstar) over the past year (Jan 2024 to Nov 2024). The analysis willl focus on subscriber growth, content consumption pattern, inactivity behaviour and upgrade/downgrade trends to optimize post-merger strategies.
 
 ## About Project
-MYSQL [Script]()
+MySQL Script 
+- [PrimaryQuestions](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2314/primaryQs.sql) 
+- [ExploratoryDataAnalysis](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2314/exploratoryQs.sql)
 
-Presentation [Document]()
+Excel [Visualizations](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2314/question's_answer_using_visualization.xlsx)
+
+Presentation [Document](https://github.com/SSonwane26/DataProjectChallenges/blob/main/CodeBasicsResumeProjectChallenge%2314/PowerPointPresentaion.pdf)
 
 Video [Presentation](https://www.youtube.com/watch?v=dWZDka9dpyE)
 
@@ -109,7 +113,7 @@ Insight Generation:
   - Highlighted key challenges (e.g., high churn rates, limited regional content) and opportunities (e.g., Tier 2 and Tier 3 markets, bundled plans).
 
 Visualization:
-  - Designed interactive dashboards and charts using Power BI to present insights clearly.
+  - Designed interactive dashboards and charts using MsExcel(files export from sql) to present insights clearly.
   - Included visualizations such as:
     - Line charts for user growth trends.
     - Clustered bar charts for retention and churn rates.
@@ -155,10 +159,10 @@ Free plan users are more likely to churn, especially in Tier 3 cities and younge
 
 Subscription Plan Trends
 - Upgrades:
-  - LioCinema: Most users transitioned from Basic to Free (10,309 and Premium to Free (7,439).
-  - Jotstar: Most users transitioned from VIP to Premium (2,821 and VIP to Free (2,149).
+  - LioCinema: Most users transitioned from Basic to Free (10,309) and Premium to Free (7,439).
+  - Jotstar: Most users transitioned from VIP to Premium (2,821) and VIP to Free (2,149).
 - Downgrades:
-  - LioCinema: Most users transitioned from Free to Basic (2,078 and Basic to Premium (1,362).
+  - LioCinema: Most users transitioned from Free to Basic (2,078) and Basic to Premium (1,362).
   - Jotstar: Most users transitioned from Free to VIP (844) and Free to Premium (683).
 
 Users on both platforms tend to downgrade to cheaper plans, indicating price sensitivity. However, Jotstar sees more upgrades to VIP/Premium plans, suggesting stronger appeal for premium content.
@@ -222,7 +226,7 @@ Both platforms face significant inactivity challenges, with LioCinema slightly w
 ### Suggestions and Recommendations:
 
 1. Retention Strategies:
-   - Target Free plan users** in Tier 3 cities and younger age groups with personalized offers.
+   - Target Free plan users in Tier 3 cities and younger age groups with personalized offers.
    - Introduce loyalty programs for Premium/VIP users to reduce churn.
 2. Content Strategy:
    - Expand regional and sports content on LioCinema to match Jotstar’s diversity.
@@ -230,7 +234,7 @@ Both platforms face significant inactivity challenges, with LioCinema slightly w
 3. Device Optimization
    - Enhance TV and mobile experiences to capitalize on high engagement on these devices.
 4. Revenue Growth:
-   - Encourage upgrades to **Premium/VIP plans** through targeted marketing and bundling offers.
+   - Encourage upgrades to Premium/Pro plans through targeted marketing and bundling offers.
 5. Merger Synergies:
    - Combine LioCinema’s subscriber base with Jotstar’s content library to create a unified platform with broad appeal.
 
